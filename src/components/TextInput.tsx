@@ -8,7 +8,7 @@ export interface TextInputRootProps {
 
 function TextInputRoot({ children }: TextInputRootProps) {
 	return (
-		<div className='py-4 px-3 flex items-center gap-3 rounded outline-none bg-gray-800 focus-within:ring-2 ring-cyan-300'>
+		<div className='py-4 px-3 h-12 flex items-center gap-3 rounded outline-none bg-gray-800 focus-within:ring-2 ring-cyan-300'>
 			{children}
 		</div>
 	);
